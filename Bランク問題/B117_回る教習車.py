@@ -9,7 +9,7 @@ class Solution:
         circle_count = 0
         i = 0
 
-        if list(a) == car_id:
+        if a == car_id:
             return circle_count
         elif a[0] != N and a[-1] != N:
             circle_count -= 1
