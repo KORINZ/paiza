@@ -1,26 +1,11 @@
-from typing import List
-
-
 class Solution:
-    @staticmethod
-    def balance(n_x_y: List[int]) -> List[str]:
-        n, x, y = n_x_y
-        people = []
+    def __init__(self):
+        self.fee = 120
 
-        for i in range(1, n + 1):
-            if i % x == 0 and i % y != 0:
-                people.append("A")
-            elif i % y == 0 and i % x != 0:
-                people.append("B")
-            elif i % y == 0 and i % x == 0:
-                people.append("AB")
-            else:
-                people.append("N")
-
-        return people
+    def balance(self, n: int) -> int:
+        return n - self.fee
 
 
 if __name__ == '__main__':
-    input_line = list(map(int, input().split()))
-    for i in Solution().balance(input_line):
-        print(i)
+    input_line = int(input())
+    print(Solution().balance(input_line))
