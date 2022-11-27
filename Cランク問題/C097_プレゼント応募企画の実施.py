@@ -1,3 +1,6 @@
+"""
+https://paiza.jp/works/challenges/480/retry
+"""
 from typing import List
 
 

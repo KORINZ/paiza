@@ -1,3 +1,8 @@
+"""
+https://paiza.jp/works/challenges/592/retry
+"""
+
+
 class Solution:
     def __init__(self):
         self.fee = 120

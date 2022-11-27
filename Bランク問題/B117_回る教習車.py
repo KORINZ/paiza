@@ -1,3 +1,6 @@
+"""
+https://paiza.jp/works/challenges/572/retry
+"""
 from typing import List
 from collections import deque
 

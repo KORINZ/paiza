@@ -1,3 +1,6 @@
+"""
+https://paiza.jp/challenges/591/ready
+"""
 from typing import List
 
 

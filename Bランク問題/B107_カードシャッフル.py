@@ -1,3 +1,6 @@
+"""
+https://paiza.jp/works/challenges/525/retry
+"""
 from typing import List
 import itertools
 
