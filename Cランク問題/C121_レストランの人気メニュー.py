@@ -1,12 +1,12 @@
 """
 https://paiza.jp/challenges/591/ready
 """
-from typing import List
+from typing import List, Union
 
 
 class Solution:
     @staticmethod
-    def top_ten(n_c: List[int], r_cal: List[List[int]]) -> str or int:
+    def top_ten(n_c: List[int], r_cal: List[List[int]]) -> Union[str, int]:
         n, c = n_c
 
         top_list = [i + 1 for i in range(10)]
