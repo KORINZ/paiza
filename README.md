@@ -7,7 +7,7 @@
 <h1 align="center">paizaラーニングの提出</h1>
 </div>
 
-🐲 paizaの[プログラミングスキルチェック](https://paiza.jp/challenges/info)で提出された問題集です。
+🐲 paizaの[プログラミングスキルチェック](https://paiza.jp/challenges/info)で提出された解答集です。
 
 
 
