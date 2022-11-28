@@ -25,6 +25,7 @@ class Solution:
 
 
 if __name__ == '__main__':
+    global n, m, back_to_undivided
     N_M_K = list(map(int, input().split()))
     for card in Solution().shuffle_card(N_M_K):
         print(card)
