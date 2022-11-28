@@ -25,5 +25,5 @@ class Solution:
 
 if __name__ == '__main__':
     input_line = list(map(int, input().split()))
-    for i in Solution().balance(input_line):
-        print(i)
+    for j in Solution().balance(input_line):
+        print(j)
