@@ -8,8 +8,8 @@ from collections import deque
 class Solution:
     @staticmethod
     def rotate_gondora(limit: Deque[int], gondora_id: Deque[int]) -> None:
-        limit.append(limit.popleft())
-        gondora_id.append(gondora_id.popleft())
+        limit.append(limit.popleft())  # rotate gondora's number of people limit
+        gondora_id.append(gondora_id.popleft())  # rotate gondora's id
 
     @staticmethod
     def check_gondora(n_m: List[int], limit: List[int], group: List[int]) -> List[int]:
