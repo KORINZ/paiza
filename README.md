@@ -7,7 +7,13 @@
 <h1 align="center">paizaラーニングの提出</h1>
 </div>
 
-🐲 paizaの[プログラミングスキルチェック](https://paiza.jp/challenges/info)で提出された解答集です。
+🐲 paizaの[プログラミングスキルチェック](https://paiza.jp/challenges/info)に提出された解答集です。
+
+### [Bランク問題 （中級）](https://paiza.jp/challenges/ranks/b)
+- B107_カードシャッフル.py
+- B108_観覧車の稼働状況.py
+- B109_映画館の席の予約.py
+- B117_回る教習車.py
 
 
 
